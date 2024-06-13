@@ -21,7 +21,7 @@
             int num2 = Convert.ToInt32(Console.ReadLine());
 
 
-            //this could also be written as  op == "+" etc.
+            //this could also be written as  op == "+" etc. but other changes may need to be done as well
             if (op.Contains("+"))
             {
                 Console.WriteLine(num1 + num2);
